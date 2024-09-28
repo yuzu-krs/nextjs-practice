@@ -21,6 +21,7 @@ const allBBSPosts=await prisma.post.create({
     });
     revalidatePath("/");
     redirect("/");
+    
 };
 
 
